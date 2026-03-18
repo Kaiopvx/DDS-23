@@ -1,0 +1,83 @@
+body{
+    background-color: mediumpurple;
+    height: 5000px;
+    text-align: center;
+}
+.pai{
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+}
+
+.filho{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+}
+/* TIPOS ESTÁTICOS */
+#pai-estático{
+    background-color: aqua;
+    position: static;
+}
+#filho-estatico{
+    background-color: yellow;
+    position: static;
+}
+/* TIPOS FIXOS */
+#pai-fixo{
+    background-color: white;
+    position: fixed;
+    top: 100px;
+    right: 20px;
+    bottom: 50px;
+    z-index: -1;
+
+}
+#filho-fixo{
+    background-color: black;
+    position: fixed;
+}
+/* TIPOS GRUDADOS */
+#pai-grudado{
+    background-color: chartreuse;
+    height: 1000px;
+    width: 1000px;
+}
+#filho-grudado{
+    background-color: black;
+    position: sticky;
+    top: 10%;
+    left: 50%;
+}
+/* TIPOS RELATIVOS */
+#pai-relativo{
+    background-color: white;
+    position: relative;
+}
+#filho-relativo{
+    background-color: black;
+    position: relative;
+    top: 20px;
+}
+ /* TIPOS ABSOLUTOS */
+#pai-absoluto{
+    position:static;
+    
+}
+#filho-absoluto{
+    background-color: pink;
+    position: absolute;
+    left: 500px;
+   
+}
+#pai-absoluto-relativo{
+    background-color: red;
+    position: relative;
+    top: 50px;
+}
+#filho-absoluto-relativo{
+    background-color: yellow;
+    position: relative;
+    top: 100px;
+    
+}

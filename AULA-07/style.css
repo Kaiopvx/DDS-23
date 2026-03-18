@@ -1,0 +1,101 @@
+/* Seleciona todos elemntos do site */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Seleciona por tag,nese caso a tag body */
+body{
+    background-color: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Seleciona por id */
+#topo{
+    background-color: antiquewhite;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+/* Seleciona por class */
+.descricao{
+    font-style: italic;
+}
+.bloco{
+    background-color: white;
+    border: 2px solid black;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+/* Estatistica os elementos com a class destaque */
+.destaque{
+    background-color: gold;
+}
+/* Estiliza os elementos com a class */
+/* texto-destaque */
+.texto-destaque{
+    color: darkred;
+    font-weight: bold;
+}
+/* Estiliza o elemento com id caixa-unica */
+#caixa-unica{
+    background-color: lightblue;
+    border: 2px solid navy;
+    padding: 10px;
+}
+
+/* Seleciona todo o p que esteja dentro de uma div */
+div p{
+    color: blue;
+}
+/* Seleciona todo o p que seja filho direto da class especifica */
+.pai-direto > p{
+    color: green;
+    padding: 5px;
+}
+/* Seleciona o p que vem logo após um H3, desde que seja irmão */
+h3 + p{
+    color: red;
+    font-weight: bold;
+}
+
+h4 ~ p{
+    background-color: blueviolet;
+    color: yellow;
+}
+/* SELECIONA POR ATRIBUTO ESPECIFICO */
+/* Seleciona todos os inputs, que tenha o tipo text  */
+input[type="text"]{
+    border: 2px solid orange;
+    padding: 5px;
+    margin-right: 10px;
+}
+a[href="google"]{
+    color: red;
+    font-weight: 50px;
+}
+h5,h6{
+    color: yellowgreen;
+    margin: 10px;
+    font-size: 40px;
+}
+/* Seleciona o elemento que obrigatoriamente tenha as duas classes */
+.botao.ativo{
+    color: aqua;
+    padding: 50px;
+}
+p.aviso{
+    color: chartreuse;
+}
+/* Seleciona apenas a div que tenha o id painel */
+div#painel{
+    background-color: red;
+    padding: 10px;
+}
+/* Seleciona filho dentro de filho */
+#menu ul li{
+    list-style-type: none;
+    color: violet;
+    text-decoration: none;
+}
