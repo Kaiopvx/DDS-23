@@ -1,11 +1,6 @@
 body{
-    text-align: center;
-    background-color: white;
+    background-color: rgb(28, 89, 158);
     color: white;
-}
-#caixa-cabecalho{
-    background-color: rgb(216, 209, 209);
-    padding: 20px;
 }
 #caixa-vermelha{
     background-color: red;
@@ -18,9 +13,4 @@ body{
     padding: 3px;
     margin: 20px;
     border: 2px solid black;
-}
-#caixa-rodape{
-    background-color: rgb(97, 104, 104);
-    color: white;
-    padding: 10px;
 }

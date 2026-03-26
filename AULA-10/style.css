@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+    text-align: center;
+}
+.icones{
+    color: red;
+    font-size: 120px;
+    padding: 2px;
+}
+.icones:hover{
+    color: white;
+    background-color: red;
+    padding: 2px;
+    cursor: pointer;
+}
+.icones2 {
+    color: green;
+    background-color: yellow;
+    padding: 2px;
+    font-size: 120px;
+}
+.icones2:hover {
+    color: yellow;
+    background-color: green;
+    padding: 2px;
+    cursor: pointer;
+}
