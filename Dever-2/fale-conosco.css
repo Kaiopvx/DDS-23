@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  background: lightblue;
+  z-index: 1000;
+  border-bottom: 1px solid black;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo h1 {
+  font-size: 40px;
+}
+
+.logo span {
+  font-size: 16px;
+  color: black;
+  display: block;
+}
+
+.navegacao {
+  display: flex;
+  gap: 20px;
+}
+
+.navegacao a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.navegacao a:hover {
+  color: rgba(35, 35, 109, 0.733);
+}
+.fale-conosco {
+  max-width: 1200px;
+  margin: 20px auto; 
+  padding: 0 15px;
+  font-size: 17px;
+}
+.formulario {
+  border: 2px solid #000000;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  border-radius: black;
+}
+
+.form-group label {
+  width: 200px;
+  font-weight: bold;
+}
+
+
+.form-group input,
+.form-group textarea {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid grey;
+  outline: none; 
+  background-color: lightgray;
+  margin-right: 10px;
+  width: 1000px;
+}
+
+.form-group textarea {
+  height: 120px;
+  resize: none;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background: gray;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: black;
+}
+
+.rodape {
+  background: lightblue;
+  text-align: center;
+  padding: 15px;
+  margin-top: 170px;
+  justify-items: center;
+  color: rgb(48, 20, 20);
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.rodape-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+.rodape-grid h3{
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+.rodape-grid p{
+    color: #d1d5db;
+    margin-bottom: 5px;
+}
